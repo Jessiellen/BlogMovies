@@ -41,24 +41,29 @@ Escalabilidade: Django é altamente escalável e pode lidar com grandes volumes 
 1. Clone o repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/seu-usuario/blog-de-filmes.git
+git clone https://github.com/seu-usuario/blog_movies.git
 ```
 
 2. Instale as dependências do Python:
 
 ```bash
-pip install -r requirements.txt
+pip install poetry
+pip install django
 ```
 
 3. Execute as migrações do Django:
 
 ```bash
+python manage.py makemigrations
 python manage.py migrate
 ```
 
 4. Inicie o servidor de desenvolvimento:
 
 ```bash
+docker-compose build
+docker-composer up
+ou
 python manage.py runserver
 ```
 
