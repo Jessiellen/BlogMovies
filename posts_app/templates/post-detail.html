@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalhes Postagem{% endblock %}
+
+{% block content %}
+	<div class="text-center">
+
+		<a class="btn btn-warning" href="{% url 'post-update' post.id %}">Update</a>
+		<a class="btn btn-danger" href="{% url 'post-delete' post.id %}">Deletar</a>
+
+		<h1>Details Post {{post.title}}</h1>
+	
+		<p>{{post.create_at}}</p> 
+	
+		<img src="{{post.image.url}}" width="400" alt="{{post.title}}">
+	 
+        <p class="mt-4"><strong>Film synopsis</strong>
+        <p>{{ post.description }}</p>
+		<!-- <p>{{post.description}}</p>   -->
+
+        <p class="mt-5"><strong>Opinions:</strong></p>  
+        
+        <p>{{ post.opinions }}</p> 
+
+	</div>
+{% endblock content %}
