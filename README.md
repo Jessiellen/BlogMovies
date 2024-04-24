@@ -15,15 +15,14 @@ Além disso, os usuários também podem visualizar as postagens de outros usuár
 - Postagem de Opiniões: os usuários podem postar suas opiniões sobre os filmes que assistiram, incluindo título, descrição e avaliação.
 - Visualização de Postagens: os usuários podem visualizar as postagens de outros usuários.
 - Comentários: os usuários podem comentar nas postagens de outros usuários para compartilhar suas opiniões e iniciar discussões.
-- Integração com API de Filmes: o sistema pode integrar-se a uma API de filmes para obter informações sobre os filmes mencionados nas postagens dos usuários.
 
 ## Tecnologias Utilizadas
 
 - **Django**: Framework web em Python usado para desenvolver a aplicação.
 - **HTML/CSS**: Linguagens de marcação e estilo para criar a interface do usuário.
 - **Bootstrap**: Framework front-end para design responsivo e componentes de interface do usuário.
-- **SQLite**: Banco de dados relacional para armazenar informações de usuário e postagem.
-
+- **Docker**: Uma plataforma de contêineres que simplifica o processo de empacotamento, distribuição e execução de aplicativos em ambientes isolados, garantindo consistência e portabilidade entre diferentes ambientes de desenvolvimento e produção.
+- 
 # Objetivo da Aplicação
 O objetivo deste aplicativo é permitir que os usuários compartilhem suas opiniões e resenhas sobre os filmes que assistiram. Ele oferece uma plataforma onde os usuários podem escrever posts, discutir filmes, ver as opiniões de outros usuários e descobrir novos filmes para assistir.
 
@@ -41,7 +40,7 @@ Escalabilidade: Django é altamente escalável e pode lidar com grandes volumes 
 1. Clone o repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/seu-usuario/blog_movies.git
+git clone https://github.com/seu-usuario/BlogMovies.git
 ```
 
 2. Instale as dependências do Python:
